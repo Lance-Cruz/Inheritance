@@ -40,4 +40,12 @@ public class Person {
     public void setTelephoneNumber(String telephoneNumber) {
         this.telephoneNumber = telephoneNumber;
     }
+
+    @Override
+    public String toString() {
+        return "Person  " +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", telephoneNumber='" + telephoneNumber + '\'';
+    }
 }
