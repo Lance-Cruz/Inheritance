@@ -36,7 +36,6 @@ public class Customer extends Person {
     public String toString() {
         return super.toString() + " " +
                 "customerNumber=" + customerNumber +
-                ", mailingList=" + mailingList +
-                '}';
+                ", mailingList=" + mailingList + ' ';
     }
 }
